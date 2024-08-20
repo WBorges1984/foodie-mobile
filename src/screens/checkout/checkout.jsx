@@ -48,7 +48,7 @@ export default function Checkout(props) {
       </View>
 
         <View style={styles.containerBtn}>
-            <Button texto="FInalizar PEdido" />
+            <Button texto="Finalizar Pedido" />
         </View>
 
     </View>

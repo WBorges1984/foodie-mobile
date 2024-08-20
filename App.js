@@ -1,12 +1,11 @@
-import Login from "./src/screens/login/login";
-import Registro from "./src/screens/registro/registro"
+import Routes from "./src/routers";
+import RoutesAuth from "./src/routesAuth";
+
+
+const isUserAuth = true;
 
 export default function App() {
 
-  return (<>
-    {/* <Login /> */}
-    <Registro />
-    
-  </>
-  );
+  return isUserAuth ? <RoutesAuth /> : <Routes />
+// return <Busca />    
 }

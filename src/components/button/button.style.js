@@ -8,7 +8,7 @@ export const styles = {
     },
     texto: {
         fontSize: FONT_SIZE.md,
-        color: "white",
+        color: COLORS.white,
         padding: 14,
         textAlign: "center"
     }
